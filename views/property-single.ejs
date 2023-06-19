@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form</title>
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="stylesheet" href="/img/apnaGhar.jpg">
+    <link href="/img/apnaGhar.png" rel="icon" />
+    <!-- <link rel="stylesheet" href="../public/img/apnaGhar.jpg"> -->
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+
+    <link rel="stylesheet" href="/vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="/vendor/swiper/swiper-bundle.min.css">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Inter;
+
+        }
+
+        .section {
+            margin: 4rem;
+        }
+
+        .heroContainer {
+            display: flex;
+        }
+
+        .rupee {
+            font-size: 45px;
+            font-weight: 800;
+            border: 2px solid black;
+            border-radius: 10px;
+            border-style: double;
+            padding: 1rem;
+
+        }
+
+        .rupeeSpan {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            justify-content: center;
+
+        }
+
+        .heroImg {
+            width: 750px;
+            height: 370px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .fa-solid {
+            color: #2B283A;
+            padding: 0.5rem;
+        }
+
+        .cont {
+            margin: 1.5em;
+        }
+
+        .cont2 {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 1em;
+        }
+
+        .name {
+            font-weight: 400;
+            font-size: 25px;
+            /* text-transform: uppercase; */
+            letter-spacing: 2px;
+        }
+
+        .url {
+            color: gray
+        }
+
+        .title {
+            font-size: 10px;
+            color: #2B283A;
+            font-weight: 700;
+            margin-bottom: 0.5em;
+        }
+
+        hr {
+            margin: 20px;
+            border: 1px solid #F5F5F5;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- ======= Header/Navbar ======= -->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a class-"nav-link" href="/"> <img src="/img/apnaGhar.jpg" alt="" class="logo"></a>
+
+            <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/addProperty">Add Property</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/property">Properties</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/login">Login</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo01">
+        <i class="bi bi-search"></i>
+      </button> -->
+
+        </div>
+    </nav><!-- End Header/Navbar -->
+
+
+    <section class="section">
+
+        <div class="heroContainer">
+            <div class="cont">
+
+                <img src="/img/slide-3.jpg" class="heroImg" />
+                <span class="rupeeSpan">
+                    <h4 class="rupee">12000 ₹</h4>
+                </span>
+
+            </div>
+            <div class="cont">
+                <div class="cont2">
+                    <h4 class="name">Name : Harsh Turakhia</h4>
+                </div>
+
+                <h4 class="name">Email : harsh@gmail.com</h4>
+                <h4 class="name">Phone No : +91 1234567890</h4>
+                <h4 class="name">Property Type : Farm</h4>
+                <h4 class="name">Choice : Buy</h4>
+                <span>
+                    <h5 class="name">Area : <b>110 sq/ft.</b></h5>
+                </span>
+                <h4 class="name">City : Junagadh</h4>
+                <h4 class="name">State : Gujarat</h4>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+
+
+    <!-- ======= Footer ======= -->
+    <section class="section-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">apnaGhar </h3>
+                        </div>
+                        <div class="w-body-a">
+                            <p class="w-text-a color-text-a">
+                                <strong>The one & only place to buy, sell and rent a property at reasonable market
+                                    rates. </strong>
+                            </p>
+                        </div>
+                        <div class="w-footer-a">
+                            <ul class="list-unstyled">
+                                <li class="color-a">
+                                    <span class="color-text-a">Phone .</span> <strong> contact@example.com </strong>
+                                </li>
+                                <li class="color-a">
+                                    <span class="color-text-a">Email .</span> <strong> +91 123 456 7890 </strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 section-md-t3">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">The Company</h3>
+                        </div>
+                        <div class="w-body-a">
+                            <div class="w-body-a">
+                                <ul class="list-unstyled">
+                                    <li class="item-list-a">
+                                        <i class="bi bi-chevron-right"></i> <a href="/homePage">Main Office</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="bi bi-chevron-right"></i> <a href="/about">About</a>
+                                    </li>
+
+                                    <li class="item-list-a">
+                                        <i class="bi bi-chevron-right"></i> <a href="/homePage">Careers</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="bi bi-chevron-right"></i> <a href="/homePage">Paper work</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="bi bi-chevron-right"></i> <a href="/homePage">Legal</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="bi bi-chevron-right"></i> <a href="/homePage">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 section-md-t3">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">Other sites</h3>
+                        </div>
+                        <div class="w-body-a">
+                            <ul class="list-unstyled">
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="99acres.com">99 acres</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="magicbricks.com">Magic bricks</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">Makaan</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">Redfins</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">Singapore</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">Philippines</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="socials-a">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="icons">
+                                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="icons">
+                                    <i class="bi bi-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="icons">
+                                    <i class="bi bi-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="icons">
+                                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-footer">
+                        <p class="copyright color-text-a">
+                            &copy; Copyright
+                            <span class="color-a"> <a href="#"><strong> apnaGhar </strong></a></span> <br> All Rights
+                            Reserved.
+                        </p>
+                    </div>
+                    <div class="credits">
+
+                        Designed by <a href="#"><strong> apnaGhar </strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End  Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
